@@ -50,19 +50,19 @@ body, h1, h2, p, img {
   }
   
   .modal-content {
-    margin: 15% auto;
+    margin: 5% auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 100%;
+    max-width: 1200px;
   }
   
   .close {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 10px;
+    right: 30px;
     cursor: pointer;
   }
   
