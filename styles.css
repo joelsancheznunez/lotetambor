@@ -4,18 +4,70 @@ body, h1, h2, p, img {
     padding: 0;
     font-family: 'Arial', sans-serif;
   }
+
+h1 {
+    font-size: 80px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 50px;
+    color: #fffc2f;
+}
+
+.descripcion {
+ padding: 37px;
+ background-color: #e4d3b2;
+ text-align: center; /* Centrar el contenido */
+
+}
+
+p {
+    text-align: center; /* Centrar el texto */
+    font-size: large;    /* Tamaño de fuente (puedes ajustarlo según tus preferencias) */
+    color: #18191a;        /* Color del texto (puedes ajustarlo según tus preferencias) */
+}
+
+/* Estilo para el botón de Google Maps */
+.google-maps-button {
+    display: inline-block;
+    padding: 20px;
+    font-size: xx-large;
+    background-color: #154374; /* Color de fondo azul (puedes ajustarlo según tus preferencias) */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Espacio superior para separar el botón del contenido */
+  }
+  
+  .google-maps-button:hover {
+    background-color: #209ec4; /* Color más oscuro al pasar el cursor */
+  }
+  
+
+/* Estilo para centrar el título de la galería */
+.galeria_titulo {
+    text-align: center; /* Centrar el texto */
+    margin-top: 70px;   /* Espacio superior para separar el título de la galería */
+    margin-bottom: 2px; /* Espacio inferior para separar el título de la galería */
+    font-size: 30px;    /* Tamaño de fuente (puedes ajustarlo según tus preferencias) */
+    color: #0c2373;        /* Color del texto (puedes ajustarlo según tus preferencias) */
+  }
+  
   
   /* Estilos básicos de la página */
   body {
-    background-color: #f4f4f4;
+    background-color: rgb(228, 225, 225);
     color: #333;
   }
   
   header {
     padding: 20px;
+    padding-bottom: 5px;
     text-align: center;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ba0404de;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
   .gallery {
@@ -26,15 +78,17 @@ body, h1, h2, p, img {
   }
   
   .gallery img {
-    width: 150px;
-    height: 100px;
+    width: 420px;
+    height: 270px;
     margin: 10px;
+    border-radius: 10px;
+    border: #ffffff solid 4px;
     cursor: pointer;
     transition: transform 0.3s ease;
   }
   
   .gallery img:hover {
-    transform: scale(1.1);
+    transform: scale(1.11);
   }
   
   /* Estilos para la galería modal */
@@ -57,18 +111,18 @@ body, h1, h2, p, img {
   }
   
   .close {
-    color: #fff;
-    font-size: 40px;
+    color: #ffffff;
+    font-size: 67px;
     font-weight: bold;
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 30px;
     cursor: pointer;
   }
   
   .close:hover,
   .close:focus {
-    color: #aaa;
+    color: #cc5530;
     text-decoration: none;
     cursor: pointer;
   }
@@ -90,15 +144,16 @@ body, h1, h2, p, img {
   /* Estilo para el botón de descarga */
   .download-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff; /* Color de fondo azul (puedes cambiarlo según tus preferencias) */
+    padding: 20px;
+    background-color: #154374; /* Color de fondo azul (puedes cambiarlo según tus preferencias) */
     color: #fff;
+    font-size: xx-large;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 7px;
     transition: background-color 0.3s ease;
   }
   
   .download-button:hover {
-    background-color: #0056b3; /* Color más oscuro al pasar el cursor */
+    background-color: #209ec4; /* Color más oscuro al pasar el cursor */
   }
   
