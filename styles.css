@@ -12,12 +12,16 @@ h1 {
 
 h2 {
     font-size: 50px;
-    color: #fffc2f;
+    color: #40403b;
+}
+
+h4 {
+  color: #ffffff;
 }
 
 .descripcion {
  padding: 37px;
- background-color: #e4d3b2;
+ background-color: #353535ff;
  text-align: center; /* Centrar el contenido */
 
 }
@@ -25,7 +29,7 @@ h2 {
 p {
     text-align: center; /* Centrar el texto */
     font-size: large;    /* Tamaño de fuente (puedes ajustarlo según tus preferencias) */
-    color: #18191a;        /* Color del texto (puedes ajustarlo según tus preferencias) */
+    color: #ffffff;        /* Color del texto (puedes ajustarlo según tus preferencias) */
 }
 
 /* Estilo para el botón de Google Maps */
@@ -33,7 +37,7 @@ p {
     display: inline-block;
     padding: 20px;
     font-size: xx-large;
-    background-color: #154374; /* Color de fondo azul (puedes ajustarlo según tus preferencias) */
+    background-color: #2a87ec; /* Color de fondo azul (puedes ajustarlo según tus preferencias) */
     color: #fff;
     text-decoration: none;
     border-radius: 7px;
@@ -42,10 +46,9 @@ p {
   }
   
   .google-maps-button:hover {
-    background-color: #209ec4; /* Color más oscuro al pasar el cursor */
+    background-color: #65bad4; /* Color más oscuro al pasar el cursor */
   }
   
-
 /* Estilo para centrar el título de la galería */
 .galeria_titulo {
     text-align: center; /* Centrar el texto */
@@ -54,7 +57,6 @@ p {
     font-size: 30px;    /* Tamaño de fuente (puedes ajustarlo según tus preferencias) */
     color: #0c2373;        /* Color del texto (puedes ajustarlo según tus preferencias) */
   }
-  
   
   /* Estilos básicos de la página */
   body {
@@ -66,7 +68,7 @@ p {
     padding: 20px;
     padding-bottom: 5px;
     text-align: center;
-    background-color: #ba0404de;
+    background-color: #f46524;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
@@ -183,4 +185,8 @@ p {
   margin-bottom: 8px; /* Espacio inferior para separar cada línea de información */
   color: #ffffff;
   font-size: xx-large;
+}
+
+.guardar {
+  color: #333;
 }
