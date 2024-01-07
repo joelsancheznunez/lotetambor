@@ -88,7 +88,7 @@ p {
   }
   
   .gallery img:hover {
-    transform: scale(1.11);
+    transform: scale(1.07);
   }
   
   /* Estilos para la galería modal */
@@ -157,3 +157,30 @@ p {
     background-color: #209ec4; /* Color más oscuro al pasar el cursor */
   }
   
+  /* Estilos para el pie de página */
+.site-footer {
+  background-color: #333; /* Color de fondo oscuro para el pie de página */
+  color: #fff; /* Color de texto blanco para la información de contacto */
+  padding: 20px 0; /* Espaciado interior del pie de página */
+  margin-top: 30px;
+}
+
+.container {
+  width: 80%; /* Ancho del contenedor para centrar el contenido del pie de página */
+  margin: 0 auto; /* Centrar el contenedor */
+}
+
+.contact-info {
+  text-align: center; /* Centrar el texto dentro del contenedor */
+  font-size: xx-large;
+}
+
+.contact-info h4 {
+  margin-bottom: 10px; /* Espacio inferior para separar el título de la información */
+}
+
+.contact-info p {
+  margin-bottom: 8px; /* Espacio inferior para separar cada línea de información */
+  color: #ffffff;
+  font-size: xx-large;
+}
