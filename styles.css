@@ -7,68 +7,68 @@ body, h1, h2, p, img {
 
 h1 {
     font-size: 80px;
-    color: #ffffff;
+    color: #2962ffff;
 }
 
 h2 {
     font-size: 50px;
-    color: #40403b;
+    color: #2a2a38ff;
 }
 
 h4 {
-  color: #ffffff;
+  color: #2962ffff;
 }
 
 .descripcion {
- padding: 37px;
- background-color: #353535ff;
- text-align: center; /* Centrar el contenido */
-
+padding: 37px;
+background-color: #ffffffff;
+text-align: center; 
 }
 
 p {
-    text-align: center; /* Centrar el texto */
-    font-size: large;    /* Tamaño de fuente (puedes ajustarlo según tus preferencias) */
-    color: #ffffff;        /* Color del texto (puedes ajustarlo según tus preferencias) */
+    text-align: center; 
+    font-size: large;    
+    color: #2a2a38ff;        
 }
 
-/* Estilo para el botón de Google Maps */
+/* botón de Google Maps */
 .google-maps-button {
     display: inline-block;
     padding: 20px;
     font-size: xx-large;
-    background-color: #2a87ec; /* Color de fondo azul (puedes ajustarlo según tus preferencias) */
+    background-color: #2a87ec; 
     color: #fff;
     text-decoration: none;
     border-radius: 7px;
     transition: background-color 0.3s ease;
-    margin-top: 20px; /* Espacio superior para separar el botón del contenido */
+    margin-top: 20px; 
   }
   
   .google-maps-button:hover {
-    background-color: #65bad4; /* Color más oscuro al pasar el cursor */
+    background-color: #65bad4; 
   }
   
-/* Estilo para centrar el título de la galería */
+/* centrar el título de la galería */
 .galeria_titulo {
-    text-align: center; /* Centrar el texto */
-    margin-top: 70px;   /* Espacio superior para separar el título de la galería */
-    margin-bottom: 2px; /* Espacio inferior para separar el título de la galería */
-    font-size: 30px;    /* Tamaño de fuente (puedes ajustarlo según tus preferencias) */
-    color: #0c2373;        /* Color del texto (puedes ajustarlo según tus preferencias) */
+    text-align: center; 
+    margin-top: 30px;   
+    margin-bottom: 2px; 
+    font-size: 30px;    
+    color: #2962ffff;        
   }
   
-  /* Estilos básicos de la página */
+  /* Estilos de la página */
   body {
-    background-color: rgb(228, 225, 225);
+    background-color: #f0efef;
     color: #333;
   }
   
   header {
-    padding: 20px;
-    padding-bottom: 5px;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
-    background-color: #f46524;
+    background-color: #f0efef;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
@@ -84,7 +84,7 @@ p {
     height: 270px;
     margin: 10px;
     border-radius: 10px;
-    border: #ffffff solid 4px;
+    border: rgba(12, 109, 151, 0.746) solid 4px;
     cursor: pointer;
     transition: transform 0.3s ease;
   }
@@ -93,7 +93,7 @@ p {
     transform: scale(1.07);
   }
   
-  /* Estilos para la galería modal */
+  /* Estilos galería modal */
   .modal {
     display: none;
     position: fixed;
@@ -111,23 +111,22 @@ p {
     width: 100%;
     max-width: 1200px;
   }
-  
-  .close {
-    color: #ffffff;
-    font-size: 67px;
-    font-weight: bold;
-    position: absolute;
-    top: 5px;
-    right: 30px;
-    cursor: pointer;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #cc5530;
-    text-decoration: none;
-    cursor: pointer;
-  }
+
+  /* botón "Atrás" en el modal */
+.close-modal-btn {
+  position: absolute; 
+  top: 20px; 
+  right: 30px; 
+  padding: 15px 20px; 
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px; 
+  cursor: pointer;
+  z-index: 1010; 
+  font-size: 18px;
+}
   
   /* Estilos responsivos */
   @media (max-width: 768px) {
@@ -137,17 +136,17 @@ p {
     }
   }
   
-/* Estilo para el contenedor del botón de descarga */
+/* contenedor del botón de descarga */
 .download-button-container {
     text-align: center;
     margin-top: 20px;
   }
   
-  /* Estilo para el botón de descarga */
+  /* botón de descarga */
   .download-button {
     display: inline-block;
     padding: 20px;
-    background-color: #154374; /* Color de fondo azul (puedes cambiarlo según tus preferencias) */
+    background-color: #2a87ec; 
     color: #fff;
     font-size: xx-large;
     text-decoration: none;
@@ -156,37 +155,73 @@ p {
   }
   
   .download-button:hover {
-    background-color: #209ec4; /* Color más oscuro al pasar el cursor */
+    background-color: #65bad4; 
   }
   
-  /* Estilos para el pie de página */
+  /* footer */
 .site-footer {
-  background-color: #333; /* Color de fondo oscuro para el pie de página */
-  color: #fff; /* Color de texto blanco para la información de contacto */
-  padding: 20px 0; /* Espaciado interior del pie de página */
+  background-color: #d7d7d7; 
+  color: #fff; 
+  padding: 20px 0; 
   margin-top: 30px;
 }
 
 .container {
-  width: 80%; /* Ancho del contenedor para centrar el contenido del pie de página */
-  margin: 0 auto; /* Centrar el contenedor */
+  width: 80%; 
+  margin: 0 auto; 
 }
 
 .contact-info {
-  text-align: center; /* Centrar el texto dentro del contenedor */
+  text-align: center; 
   font-size: xx-large;
 }
 
 .contact-info h4 {
-  margin-bottom: 10px; /* Espacio inferior para separar el título de la información */
+  margin-bottom: 10px; 
 }
 
 .contact-info p {
-  margin-bottom: 8px; /* Espacio inferior para separar cada línea de información */
-  color: #ffffff;
+  margin-bottom: 8px; 
+  color: #000000;
   font-size: xx-large;
 }
 
 .guardar {
   color: #333;
+}
+
+/* Estilo modal */
+#imageModal {
+  display: none; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0,0,0,0.9); 
+  z-index: 1000; 
+  overflow: auto; 
+}
+
+/* imagen dentro del modal */
+#modalImage {
+  margin: auto; 
+  display: block; 
+  max-width: 98%; 
+  max-height: 98%; 
+  cursor: pointer; 
+}
+
+/* Estilo adicional para el cuerpo y el html para asegurarse de que el modal ocupe toda la pantalla */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.youtube {
+  padding-top: 20px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }

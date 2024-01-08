@@ -2,10 +2,10 @@
 <html lang="es">
     
 <head>
-<meta charset="UTF-8">
-<title>Lote en Venta</title>
-<link rel="stylesheet" href="styles.css">
-<link rel="icon" href="images/favicon.png">
+  <meta charset="UTF-8">
+  <title>Lote en Venta</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
@@ -22,20 +22,30 @@
           <p>Teléfono / WhatsApp: 6106-6267</p>
           <p><i>Feel free to call us. We speak English!</i> </p>
 
-    <!-- Botón para ir a Google Maps -->
+    <!-- Botón Google Maps -->
     <a href="https://maps.app.goo.gl/2hdQMZsg3Axx9aLi7" target="_blank" class="google-maps-button">Ver en Google Maps</a>
 </section>
 
 <h3 class="galeria_titulo">GALERÍA DE IMÁGENES Y VIDEO</h3>
 <p class="guardar"><i>Si desea guardar las imágenes, puede hacerlo con click derecho y seleccionando la opción de descarga.</i></p>
+
+<section class="youtube">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Vg9q0Q-3LG4?si=i5RCUQ4dpcDD_CXc" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen></iframe>
+</section>
+
 <section class="gallery">
+  <img src="images/Limites.png" alt="Frente" onclick="openModal('images/Limites.png')">
+  <img src="images/Satelital.png" alt="Frente" onclick="openModal('images/Satelital.png')">
+  <img src="images/Satelital 2.png" alt="Frente" onclick="openModal('images/Satelital 2.png')">
   <img src="images/Frente.JPEG" alt="Frente" onclick="openModal('images/Frente.JPEG')">
   <img src="images/Frente 1.JPEG" alt="Frente 1" onclick="openModal('images/Frente 1.JPEG')">
   <img src="images/Frente 2.JPEG" alt="Frente 2" onclick="openModal('images/Frente 2.JPEG')">
   <img src="images/Frente IZQ.JPEG" alt="Frente IZQ" onclick="openModal('images/Frente IZQ.JPEG')">
   <img src="images/Lateral DER.JPEG" alt="Lateral DER" onclick="openModal('images/Lateral DER.JPEG')">
   <img src="images/Vista Iglesia.JPEG" alt="Thumbnail" onclick="openModal('images/Vista Iglesia.JPEG')">
-  </section>
+</section>
 
 <!-- Botón de descarga -->
 <div class="download-button-container">
@@ -43,22 +53,18 @@
 </div>
 
 <div class="download-button-container">
-    <a href="ruta_del_archivo.pdf" download="nombre_del_archivo.pdf" class="download-button">Descargar Video</a>
-</div>
-
-<div class="download-button-container">
     <a href="images/Panoramica.JPEG" download="Panoramica" class="download-button">Descargar Panorámica</a>
 </div>
 
 <div id="imageModal" class="modal">
-  <span class="close" onclick="closeModal()">&times;</span>
+  <span id="closeModalBtn" class="close-modal-btn" onclick="closeModal()">Ir Atrás</span>
   <img id="modalImage" class="modal-content">
 </div>
 
 <footer class="site-footer">
   <div class="container">
       <div class="contact-info">
-          <h4><strong>*** INFORMACIÓN DE CONTACTO ***</strong></h4>
+          <h4><strong>INFORMACIÓN DE CONTACTO</strong></h4>
           <p>Teléfono / WhatsApp: 6106-6267</p>
           <p><i>Feel free to call us. We speak English!</i> </p>
       </div>
